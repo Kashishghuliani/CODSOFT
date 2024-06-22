@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin-top: 0px;
+}
+
+/*header*/
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    background-color:black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+    color: white;
+}
+
+.home a{
+    color: purple;
+    font-size: 1.3rem;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover{
+    color: purple;
+    font-size: 1.3rem;
+}
+
+.left{
+    font-size: x-large;
+    color: white;
+}
+
+
+/*introduction*/
+
+.firstsection{
+    height: 445px;
+    background-color: white;
+    margin-top: 120px;
+
+}
+
+.firstsection h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.firstsection h2{
+    font-size: 3.5rem;
+    text-align: center;
+    color: purple;
+}
+
+.intro{
+    font-size: 1.3rem;
+    margin: 30px 100px 0px 100px;
+}
+
+.socials {
+    text-align: center;
+    margin-top:40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.socials span{
+    margin-left: 1.5rem;
+}
+
+.button{
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+.btn{
+    border: none;
+    background-color: purple;
+    color: white;
+    height: 50px;
+    width: 160px;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+/*about me*/
+
+.secondsection{
+    background-color:rgb(211, 164, 211);
+    height: 630px;
+}
+
+.secondsection h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.secondsection h2{
+    text-align: center;
+    font-size: 25px;
+    color: purple;
+}
+
+.aboutme{
+    margin: 50px 200px 50px 200px;
+    font-size: 20px;
+}
+
+.infobox{
+    margin: 0px 0px 0px 625px;
+}
+
+.infobox span{
+    font-size: 20px;
+}
+
+
+/*skills*/
+
+.thirdsection{
+    height: 640px;
+    background-color: white;
+}
+
+.thirdsection h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.thirdsection h2{
+    text-align: center;
+    font-size: 25px;
+    color: purple;
+}
+
+.skillscontent{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btnleft{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.btn1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(240, 182, 240);
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px plum;
+}
+
+.btn1 h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 610px;
+}
+
+.btn1 span{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.btn2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(240, 182, 240);
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px plum;
+}
+
+.btn2 h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 540px;
+}
+
+.btn2 span{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.btn3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(240, 182, 240);
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px plum;
+}
+
+.btn3 h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 620px;
+}
+
+.btn3 span{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.btnright img{
+    width: 600px;
+    margin-top: 4.5rem;
+    object-position: center;
+    background-color: white;
+
+}
+
+
+/*Qualifications*/
+
+.fourthsection{
+    background-color:rgb(211, 164, 211);
+    height: 640px;
+}
+
+.fourthsection h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.fourthsection h2{
+    text-align: center;
+    font-size: 25px;
+    color: purple;
+}
+
+.qualificationcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+.education i{
+     font-size: 1.4rem;
+     color: black;
+}
+
+.education span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.education1{
+    margin-top: 20px;
+}
+
+.education1 h3{
+    font-size: 1.8rem;
+}
+
+.education1 span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.calender{
+    margin-top: 3px;
+}
+
+.calender i{
+    font-size: 1.2rem;
+     color: black;
+}
+
+.calender span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.position{
+    margin-bottom: 130px;
+    margin-right: 100px;
+}
+
+.position i{
+    font-size: 1.4rem;
+     color: black;
+}
+
+.position span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.experience{
+    margin-top: 20px;
+}
+
+.calender1{
+    margin-top: 10px;
+}
+
+.calender1 i{
+    font-size: 1.2rem;
+     color: black;
+}
+
+.calender1 span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+
+/*Projects*/
+
+.fifthsection{
+    background-color: white;
+}
+
+.fifthsection h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.fifthsection h2{
+    text-align: center;
+    font-size: 25px;
+    color: purple;
+}
+
+.projectcontent{
+    display: flex;
+    margin-top: 70px;
+}
+
+.project img{
+    width: 60%;
+    height: 60%;
+    margin-left: 80px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 20px grey;
+}
+
+.heading1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 240px;
+}
+
+.heading2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.projectcontent1{
+    display: flex;
+}
+
+.project1 img{
+    width: 60%;
+    height: 70%;
+    margin-left: 90px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 20px grey;
+}
+
+.heading3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+.heading4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 220px;
+}
+
+.btnn{
+    border: none;
+    background-color: purple;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 8px;
+    box-shadow: 5px 5px 15px purple;
+}
+
+/*contact details*/
+
+.sixthsection{
+    background-color: rgb(211, 164, 211);
+    height: 640px;
+}
+
+.sixthsection h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.sixthsection h2{
+    text-align: center;
+    font-size: 25px;
+    color: purple;
+}
+
+.contact{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+form input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+form textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+form button{
+    width: 160px;
+    cursor: pointer;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    font-size: 1rem;
+    color: white;
+    margin-left: 250px;
+    box-shadow: 5px 5px 10px purple;
+}
+
+/*footer*/
+
+.foot{
+    background-color: rgb(40, 39, 39);
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+}
+
+.footer ul{
+    display: flex;
+}
+
+.footer li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.socials1{
+    margin-left: 750px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.socials1 span{
+    margin-left: 1.2rem;
+}
+
+.bottom-footer{
+    margin-left: 650px;
+    margin-top: 20px;
+    color: white;
+    font-size: 17px;
+}
